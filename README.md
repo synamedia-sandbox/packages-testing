@@ -5,6 +5,7 @@ This is a test of how we can use the packages area of GitHub.com to push docker 
 https://github.com/Synamedia-sandbox/packages-testing
 
 Notes:
+
 https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#pushing-container-images
 
 ```
@@ -16,6 +17,7 @@ Hello Synamedia
 ```
 
 https://github.com/settings/tokens/new?scopes=write:packages,delete:packages
+
 Save the token somewhere
 
 ```

@@ -15,4 +15,15 @@ Hello Synamedia
 
 ```
 
+https://github.com/settings/tokens/new?scopes=write:packages,delete:packages
+Save the token somewhere
+
+```
+# export CR_PAT=<TOKEN>
+# echo $CR_PAT | docker login ghcr.io -u <your useriid> --password-stdin
+
+# docker tag apline-echo synamedia-sandbox/alpine-echo
+# docker push synamedia-sandbox/packages-testing/alpine-echo
+```
+
 
